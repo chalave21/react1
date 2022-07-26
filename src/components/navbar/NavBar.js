@@ -1,5 +1,5 @@
 import { useLayoutEffect } from "react";
-import '../NavBar1.css';
+import './NavBar1.css';
 function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg">
