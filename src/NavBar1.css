@@ -1,0 +1,36 @@
+.divLogo{
+    height: 100px;
+}
+.imgLogo{
+    height: 100%;
+    width: 100%;
+}
+.navbar{
+    background-color: rgb(39, 38, 38);
+}
+.letras{
+    color: white!important;
+}
+.letras:hover{
+    color: yellow!important;
+}
+.letras::after{
+    color: yellow;
+}
+.divLogo{
+    height: 100px;
+    width: 100px;
+}
+.imgLogo{
+    height: 100%;
+    width: 100%;
+}
+.divIcono{
+    height: 25px;
+    width: 25px;
+}
+.bi {
+    height: 100%;
+    width:  100%;
+    color: white;
+}
