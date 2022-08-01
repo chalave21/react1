@@ -1,0 +1,7 @@
+.button{
+    max-width: 100px;
+    color: white;
+    padding: 5px 10px;
+    background-color: rgb(94, 189, 233);
+    border-radius: 5px;
+}
