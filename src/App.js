@@ -1,9 +1,9 @@
 import './App.css';
 import NavBar from './components/navbar/NavBar';
 import Card from './components/card/Card';
-import Button from './components/Button/Button';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
-import "./components/ItemListContainer/ItemListContainer"
+import "./components/ItemListContainer/ItemListContainer";
+import ItemCount from './components/ItemCount/ItemCount';
 
 
 function App() {
@@ -29,6 +29,9 @@ function App() {
       <div className='main'>
         <Card dataProduct={dataProduct[0]} />
         <Card dataProduct={dataProduct[1]} />
+      </div>
+      <div>
+        <ItemCount initial={1} stock={10}/>
       </div>
     </div>
 
